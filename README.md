@@ -20,7 +20,9 @@ https://wiki.genexus.com/commwiki/servlet/wiki?30900,GeneXus%2017%20hardware%20a
   <hr>
 POSSIVEIS ERROS:
 <hr>
+
 1. PROJETO NÃO ABRE NO NAVEGADOR:
+  - Verifique se o banco de dados está conectado no gerenciamento de bd.
   - Verificar se a porta utilizada para o serviço já está em uso, utilize no CMD ADMIN o comando: 
     - netstat
     - netstat -a -n -o
@@ -29,6 +31,7 @@ POSSIVEIS ERROS:
   - CASO NÃO SEJA SOLUCIONADO:
     - reinicie o computador
     - verifique se nas configurações do tomcat o JVM (Java Virtual Machine) se a versão do JRE) utilizada é a mesma que está sendo chamada na versão do JDK no GENEXUS.
+    - Verifique se o banco de dados está conectado no gerenciamento de bd.
     
   <br>
      <img src="caminho_jre_apache.png" width="80%" height="80%">
