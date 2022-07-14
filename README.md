@@ -30,12 +30,13 @@ POSSIVEIS ERROS:
     - reinicie o computador
     - verifique se nas configurações do tomcat o JVM (Java Virtual Machine) se a versão do JRE) utilizada é a mesma que está sendo chamada na versão do JDK no GENEXUS.
     
-     <img src="caminho_jre_apache.png" width="80%" height="80%"><br>
-    (imagem referente ao caminho JRE no tomcat)
-    <br>
-    <img src="caminho_jdk_genexus.png" width="80%" height="80%"><br>
-    imagem referente ao caminho jdk no genexus)
-    <br>
+  <br>
+     <img src="caminho_jre_apache.png" width="80%" height="80%"> <br>
+   (imagem referente ao caminho JRE no tomcat)
+  <br>
+    <img src="caminho_jdk_genexus.png" width="80%" height="80%"> <br>
+ (imagem referente ao caminho jdk no genexus)
+  
    
 2. PROJETO NÃO CONSEGUE SER BUILDADO CRIANDO TABELAS:
   - A solução encontrada foi somente reinstalando o programa
